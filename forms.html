@@ -6,41 +6,85 @@
     <title>Document</title>
 </head>
 <body>
-    <h3> FORMS </h3>
     <form name="Datos_Basicos" method="post" action="xD.html">
+        <h3><img src="assets/img/undraw_beer_xg5f.svg" width="50"> Datos Básicos </h3>
         <div>
-            <input required="" name="User" type="text" placeholder="Enter your username">
+            <label for="dsp">
+                Describa su perfil
+            </label>
+            <textarea id="dsp" required name="perfil" type="text" > </textarea> 
         </div>
         <div>
-            <input required name="Password" type="password" placeholder="password">
-        </div>
-        <div>
-            <textarea name="say hi" cols="30" rows="10" placeholder="Say hi"> </textarea> 
-        </div>
-
-        <div>
-            <select name="mental age">
-                <option value="" disabled="disabled"> -disabled- </option>
-                <option value="0" selected="selected"> default </option>
-                <option value="1"> 1 </option>
-                <option value="2"> 2 </option>
-                <option value="3"> 3 </option>
-                <option value="4"> 4 </option>
-                <option value="5"> 5 </option>
-                <option value="6"> 6 </option>
-                <option value="7"> 7 </option>
-                <option value="8"> 8 </option>
-                <option value="9"> 9 </option>
-                <option value="10"> 10 </option>
-                <option value="11"> 11 </option>
+            <label for="iden">
+                Tipo de identificación
+            </label>
+            <select id="iden" name="Tipo de identificación">
+                <option value="" disabled="disabled"> -Disabled- </option>
+                <option value="C.C"> C.C </option>
+                <option value="T.I"> T.I </option>
+                <option value="C.E"> C.E </option>
             </select>
         </div>
-
         <div>
-            <button type="reset"> delete </button>
-            <button type="submit"> submit </button>
+            <label for="niden">
+                Numero de identificación
+            </label>
+            <input id="niden" required name="numero de id" type="text" >
         </div>
-        
+        <div>
+            <label for="ap">
+                Apellidos
+            </label>
+            <input id="ap" required name="apellidate" type="text" >
+        </div>
+        <div>
+            <label for="nms">
+                Nombres
+            </label>
+            <input id="nms" required name="nombrate" type="text" >
+        </div>
+        <div>
+            <label for="onvre">
+                Genero
+            </label>
+            <input id="onvre" required name="genre" type="radio"> Omvre
+            <input id="onvre" required name="genre" type="radio"> Muger
+            <input id="onvre" required name="genre" type="radio" > otro
+        </div>
+        <div>
+            <label for="casao">
+                Estado civil
+            </label>
+            <input id="casao" required name="noooo" type="radio" > Soltero
+            <input id="casao" required name="noooo" type="radio" > Casado
+            <input id="casao" required name="noooo" type="radio" > Divorsiado
+            <input id="casao" required name="noooo" type="radio" > Viudo
+            <input id="casao" required name="noooo" type="radio" > Union Libre
+        </div>
+        <div>
+            <label for="ntfc">
+                Numero telefonico de contacro
+            </label>
+            <input id="ntfc" required name="llamame" type="text" >
+        </div>
+        <div>
+            <label for="dir">
+                Dirección de residencia
+            </label>
+            <input id="dir" required name="llega pues" type="text" >
+        </div>
+        <div>
+            <label for="mail">
+                Correo electronico de contacto
+            </label>
+            <input id="mail" required name="escribeme jiji" type="text" >
+        </div> 
+        <div>
+            <label for="pass">
+                Password
+            </label>
+            <input id="pass" required name="DaMeTuContraSEña" type="password" placeholder="enter password">
+        </div> 
     </form>
 </body>
 </html>
