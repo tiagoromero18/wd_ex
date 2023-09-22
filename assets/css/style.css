@@ -1,0 +1,36 @@
+.title{
+    font-family: Arial;
+    color: #1A9D9F;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+h2{
+    font-family: Arial;
+    text-align: center;
+}
+h3{
+    font-family: Arial;
+    text-align: center;
+}
+.right{
+    font-family: Arial;
+    margin-left: 1000px;
+    margin-right: 0px;
+    font-size: small;
+}
+p{
+    font-family: Arial;
+    text-justify: auto;
+    font-size: small;
+}
+.cright{
+    color: #1A9D9F;
+    font-family: Arial;
+    text-align: right;
+    font-size: large;
+    font-weight: bold;
+}
