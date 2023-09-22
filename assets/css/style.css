@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+h2{
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    color: rgba(40, 151, 129, 0.7);
+}
+h3{
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    text-weight: bold;
+}
+.right{
+    font-family: 'Mulish', sans-serif;
+    margin-left: 1000px;
+    margin-right: 0px;
+    font-size: small;
+}
+p{
+    font-family: 'Mulish', sans-serif;
+    text-justify: auto;
+    font-size: small;
+}
+.cright{
+    color: rgba(40, 151, 129, 0.7);
+    font-family: 'Mulish', sans-serif;
+    text-align: right;
+    font-size: large;
+    font-weight: bold;
+}
+
+ul{
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    color: rgba(40, 151, 129, 0.7);
+    font-size: 24pt;
+    font-weight: 700;
+    list-style-image: url("../img/flor.png");
+}
+
+li{
+    font-family: 'Mulish', sans-serif;
+    text-align: left;
+    color: black;
+    font-weight: 200px;
+    font-size: 12pt;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+    border-collapse: collapse;
+}
+
+table th{
+    height: 50px;
+    font-family: 'Mulish', sans-serif;
+    border: 4px solid black;
+    color: white;
+    background-color: rgba(40, 151, 129, 0.7);
+    width: 400px;
+}
+
+table td{
+    font-family: 'Mulish', sans-serif;
+    border: 4px solid black;
+}
