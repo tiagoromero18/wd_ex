@@ -1,0 +1,37 @@
+.azul{
+    color: blue;
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 200px;
+    font-family: Arial;
+}
+.yellow{
+    color: yellow;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 500px;
+    font-family: Times New Roman;
+}
+.pinkypie{
+    color: pink;
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: Times New Roman;
+}
+
+h2{
+    font-size: 30px;
+    color: blueviolet;
+    font-family: Arial;
+}
+
+#right{
+    text-align: right;
+}
+
+.homero{
+    font-style: italic;
+    text-decoration: underline;
+    color: #FCFC34;
+}
