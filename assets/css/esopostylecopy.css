@@ -12,3 +12,17 @@
     padding: 30px 30px 30px 30px;
     color: #FFFFFF
 }
+
+.esopo h1{
+    color: #FFFFFF;
+    text-align: left;
+}
+.esopo img{
+    width: 120px;
+    float: left;
+    margin-left: 10px;
+}
+
+.esopo p{
+    text-align: justify;
+}
