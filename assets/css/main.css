@@ -1,0 +1,38 @@
+.textcenter{
+    text-align: center;
+}
+.title{
+    color: rgb(53, 89, 183);
+    font-weight: 700;
+}
+.subtitle{
+    color: rgb(86, 48, 180);
+    font-weight: 700;
+}
+
+ul{
+    color: rgba(40, 151, 129, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+li{
+    text-align: left;
+    color: black;
+    font-weight: 200px;
+    font-size: 12pt;
+}
+
+.margent{
+    margin-left: 20px;
+}
+
+.margent li{
+    width: 120px;
+    float: left;
+    margin-left: 10px;
+}
+
+.margent img{
+    margin-left: 250px;
+}
